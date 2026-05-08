@@ -112,7 +112,7 @@ kubectl rollout restart deployment aws-load-balancer-controller -n kube-system
 
 Give the address in the address bar
 <img width="811" height="533" alt="image" src="https://github.com/user-attachments/assets/f341dacd-bdaa-4fca-9c83-88adc9d845a6" />
-Game us running!!
+Game is running!!
 
 
 
