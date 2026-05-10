@@ -74,6 +74,7 @@ eksctl create iamserviceaccount \
 
 eksctl create addon --name aws-ebs-csi-driver --cluster <YOUR-CLUSTER-NAME> --service-account-role-arn arn:aws:iam::<AWS-ACCOUNT-ID>:role/AmazonEKS_EBS_CSI_DriverRole --force
 ```
+Why?- Redis is created as stateful set. Redis required persistent volume. When we create persistent vol claim, storage class loos at claim and has to manage to crete EBS vol. There needs to be a mechanism -- EBS csi PLUGIN
 
-Docker Chart 
-Istio
+Deploy HELM Chart
+
